@@ -5,6 +5,8 @@
  Delete this file and get started with your project!
  * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  */
+import { Button } from '@monorepo-real-estate/ui';
+
 export function NxWelcome({ title }: { title: string }) {
   return (
     <>
@@ -433,6 +435,7 @@ export function NxWelcome({ title }: { title: string }) {
             <h1>
               <span> Hello there, </span>
               Welcome {title} 👋
+              <Button text="Btn" onClick={() => alert('asd')}/>
             </h1>
           </div>
 
